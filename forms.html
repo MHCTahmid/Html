@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+
+    <p>An HTML form is used to collect user input. The user input is most often sent to a server for processing.The HTML
+        form element is used to create an HTML form for user input</p>
+    <h2>label Attribute</h2>
+
+    <p>The label attribute specifies the title of the text track. The title of the text track is used by the browser
+        when listing available text tracks. <br> <br>
+
+        Example: &#60; label for="" &#62; &#60; &#47; label &#62; <br>
+        Here <b>for</b> Specifies the id of the form element the label should be bound to. <br> <br>
+
+        &#60; form &#62; &#60; &#47; form &#62;<br>
+        Defines a form<br><br>
+
+        &#60; select multiple name=? size=? &#62; &#60; /select &#62;<br>
+        Creates a scrolling menu. Size sets the number of
+        menu items visible before user needs to scroll.<br><br>
+
+        &#60; select name=? &#62; &#60; / select &#62;<br>
+        Creates a pulldown menu<br><br>
+
+        &#60; option &#62;<br>
+        Sets off each menu item<br><br>
+
+        &#60; textarea name=? cols="x" rows="y" &#60; &#60; /textarea &#62;<br>
+        Creates a text box area. Columns set the width;
+        rows set the height.<br><br>
+
+        &#60; input type="checkbox" name=? value=? &#62;<br>
+        Creates a checkbox.<br><br>
+
+        &#60; input type="checkbox" name=? value=? id=? &#62;<br>
+        Creates a checkbox which is pre-checked.<br><br>
+
+        &#60; input type="radio" name=? value=? &#62;<br>
+        Creates a radio button.<br><br>
+
+        &#60; input type="radio" name=? value=? checked &#62;<br>
+        Creates a radio button which is pre-checked.<br><br>
+
+        &#60; input type="text" name=? size=? &#62;<br>
+        Creates a one-line text area. Size sets length, in
+        characters.<br><br>
+
+        &#60; input type="submit" value=? &#62;<br>
+        Creates a submit button. Value sets the text in the
+        submit button.<br><br>
+
+        &#60; input type="image" name=? src=? border=? alt=? &#62;<br>
+        Creates a submit button using an image. <br><br>
+
+        &#60; input type="reset" &#62; <br>
+        Creates a reset button <br> <br>
+    </p>
+
+    <h1>Forms Demo</h1>
+
+    <h2>Contact me</h2>
+
+    <form>
+        <p>
+            <label for="First_name">First Name:</label>
+            <input type="text" id="First_name" placeholder="First Name" name="first_name">
+            <button>Submit</button>
+            <input type="reset">
+        </p>
+        <p>
+            <label for="Last_name">Last Name:</label>
+            <input type="text" id="Last_name" placeholder="Last Name" name="last_name">
+            <button>Submit</button>
+            <input type="reset">
+        </p>
+        <p>
+            <label for="Color">Favourite Color:</label>
+            <input type="color" name="Favourite_color" id="Color">
+            <input type="submit" value="Submit">
+        </p>
+        <p>
+            <label for="birthdate">Date of birth</label>
+            <input type="date" id="birthdate" name="birthdate" placeholder="Enter you birthdate">
+            <button>Submit</button>
+            <input type="reset">
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input placeholder="Enter Your Email" type="email" name="emailaddress" id="email">
+            <button>Submit</button>
+            <input type="reset">
+        </p>
+        <p>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter Your Password">
+            <button>Submit</button>
+            <input type="reset">
+        </p>
+        <p>
+            <label for="number">Phone Number</label>
+            <input type="number" name="Phone number" id="number" placeholder="Enter Your Phone Name">
+            <button>Submit</button>
+            <input type="reset">
+        </p>
+        <p>
+            <label for="file">File</label>
+            <input placeholder="Enter Your month" type="file" name="month" id="file">
+            <button>Submit</button>
+            <input type="reset">
+        </p>
+
+    </form>
+
+</body>
+
+</html>
